@@ -1,17 +1,11 @@
-
-
-//-------------------------------------------------------------------------//
 (function ($) {
-    // 创建构造函数
     function Slide(ele, options) {
-        this.$ele = $(ele)//this. 构造函数的实例对象
+        this.$ele = $(ele)
         this.options = $.extend({
             speed: 1000,
             delay: 3000
-        }, options)//拓展
+        }, options)
         this.states = [
-            { '&zIndex': 1, width: 120, height: 150, top: 71, left: 134, $opacity: 0.5 },
-            { '&zIndex': 2, width: 130, height: 170, top: 61, left: 0, $opacity: 0.6 },
             { '&zIndex': 3, width: 170, height: 218, top: 37, left: 110, $opacity: 0.7 },
             { '&zIndex': 4, width: 224, height: 288, top: 0, left: 262, $opacity: 1 },
             { '&zIndex': 3, width: 170, height: 218, top: 37, left: 468, $opacity: 0.7 },

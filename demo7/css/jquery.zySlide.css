@@ -31,10 +31,14 @@
     height:100%;
     vertical-align:middle;
 }
-.zy-Slide section:nth-child(1), .zy-Slide section:nth-child(2){ position: absolute; top: 50%; width: 39px; height: 40px; margin-top: -20px; cursor: pointer; line-height: 40px; padding-left: 12px; padding-right: 12px; }
-.zy-Slide section:nth-child(1){
-    left:-60px;
-}
-.zy-Slide section:nth-child(2){
-    right:-60px;  
+.zy-Slide section:nth-child(1), .zy-Slide section:nth-child(2){
+    position: absolute; 
+    top: 50%; 
+    width: 39px; 
+    height: 40px; 
+    margin-top: -20px; 
+    cursor: pointer; 
+    line-height: 40px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
 }
